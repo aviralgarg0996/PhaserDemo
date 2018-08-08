@@ -1,0 +1,24 @@
+{
+  "name": "Phaser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.11.0",
+    "webpack": "^3.12.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "webpack-dev-server": "^2.11.2"
+  }
+}
